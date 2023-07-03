@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family:verdana, tahoma;
+}
+/*=================================*/
+/*        Common Style start       */
+/*=================================*/
+.w-100 {
+    width:100%;
+}
+.line {
+    border-top:1px solid rgb(194, 196, 201);
+    margin: 0px 5px 20px 39px;
+}
+
+/*=================================*/
+/*        Common Style End         */
+/*=================================*/
+
+
+
+/*=================================*/
+/*        main-area start          */
+/*=================================*/
+.main-area {
+    background-color: rgb(240, 242, 245);
+    box-sizing: border-box;
+    overflow:hidden;
+    padding-bottom: 80px;
+}
+.main-area .img-area {
+    width:100%;
+    background-color: rgb(240, 242, 245);
+    text-align: center;
+}
+.main-area .img-area img {
+    width: 194px;
+    margin-top:26px;
+}
+.facebook-form {
+    background-color: #ffff;
+    margin:0px 476px;
+    padding:14px;
+    overflow:hidden;
+    border-radius:7px;
+}
+.main-area .facebook-form input {
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+.main-area .facebook-form h4 {
+	font-size: 18px;
+    text-align: center;
+	/* margin-left: 93px;*/
+    margin-top: 8px;
+    color: rgb(28, 30, 33);
+}
+.main-area .facebook-form input[type="text"] ,
+.main-area .facebook-form input[type="password"]{
+    padding:12px;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid rgb(194, 196, 201);
+}
+.main-area .facebook-form input[type="text"]:focus, 
+.main-area .facebook-form input[type="password"]:focus {
+    border: 1px solid rgb(24, 119, 242);
+    box-shadow: none;
+}
+::placeholder {
+    color:rgb(194, 196, 201);
+}
+.main-area .facebook-form input[type="submit"]{
+    background-color:rgb(24, 119, 242);
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    font-family: arial;
+    font-weight: bold;
+    padding:14px;
+    border: none;
+    border-radius:5px;
+}
+.main-area .facebook-form .link-login {
+	color: rgb(24, 119, 242);
+	font-size: 14px;
+	padding: 15px 32px 18px 32px;
+    text-align: center;
+}
+.main-area .facebook-form .link-login a {
+    text-decoration:none;
+}
+.main-area .facebook-form .link-login a:hover {
+    text-decoration:underline;
+}
+
+/*=================================*/
+/*        main-area end            */
+/*=================================*/
+
+
+
+/*=================================*/
+/*        Footer-area start        */
+/*=================================*/
+.footer-area {
+    font-size: 12px;
+    box-sizing: border-box;
+    color:rgb(138, 141, 145);
+}
+.footer-area .footer-main {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+.footer-area .language-area ul li a,
+.footer-area .custom-link ul li a{
+    text-decoration: none;
+    color:rgb(138, 141, 145);
+}
+.footer-area .language-area ul{
+    margin-top: 65px;
+}
+.footer-area .language-area > ul li,
+.footer-area .custom-link > ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.footer-area .language-area ul li a:hover,
+.footer-area .custom-link ul li a:hover {
+    text-decoration: underline;
+}
+.footer-area .custom-link ul li {
+    padding:3px;
+}
+.footer-area .copy-right {
+    margin:18px 0px;
+}
+
+/*=================================*/
+/*        Footer-area-end          */
+/*=================================*/
